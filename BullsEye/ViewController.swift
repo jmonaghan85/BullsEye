@@ -19,12 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+    
 
   override func viewDidLoad() {
     super.viewDidLoad()
       let roundedValue = slider.value.rounded()
       currentValue = Int(slider.value)
-      startNewRound()
+      startNewGame()
 
     
   }
@@ -38,17 +39,17 @@ class ViewController: UIViewController {
       
       let title: String
       if difference == 0 {
-          title = "Perfect! Bonus Points!"
+          title = "Perfect! You get 100 bonus points!"
           points += 100
       }else if difference == 1 {
-            title = "Wow one off! Bonus points!"
+            title = "\(currentValue)! Wow one off! You get 50 bonus points!"
           points += 50
       } else if difference < 5 {
-          title = "You almost had it!"
+          title = "\(currentValue)! You almost had it!"
       } else if difference < 10 {
-          title = "Pretty good!"
+          title = "\(currentValue) was pretty good!"
       } else {
-          title = "Not even close..."
+          title = "\(currentValue)! Not even close!"
       }
       
 
@@ -80,6 +81,14 @@ class ViewController: UIViewController {
         
     
     }
+    
+    @IBAction func startNewGame() {
+        round = 0
+        score = 0
+        startNewRound()
+    }
+    
+    
     func updateLabels() {
         targetLabel.text = String(targetValue)
         scoreLabel.text = String(score)
