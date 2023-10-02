@@ -14,6 +14,7 @@
 		352A67A320D171EA00D5BF05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352A67A120D171EA00D5BF05 /* LaunchScreen.storyboard */; };
 		ED2CD7622AC5BCF000186E85 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CD7612AC5BCF000186E85 /* AuthorViewController.swift */; };
 		ED2CD7642AC5C71900186E85 /* authorpic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED2CD7632AC5C71900186E85 /* authorpic.jpeg */; };
+		ED2CD7662AC70C9E00186E85 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = ED2CD7652AC70C9E00186E85 /* BullsEye.html */; };
 		ED9842E62AC5B287009A15C8 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9842E52AC5B287009A15C8 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		352A67A420D171EA00D5BF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED2CD7612AC5BCF000186E85 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 		ED2CD7632AC5C71900186E85 /* authorpic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = authorpic.jpeg; path = ../../../Downloads/authorpic.jpeg; sourceTree = "<group>"; };
+		ED2CD7652AC70C9E00186E85 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		ED9842E52AC5B287009A15C8 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 				352A679C20D171E800D5BF05 /* Main.storyboard */,
 				ED2CD7612AC5BCF000186E85 /* AuthorViewController.swift */,
 				ED9842E52AC5B287009A15C8 /* AboutViewController.swift */,
+				ED2CD7652AC70C9E00186E85 /* BullsEye.html */,
 				352A679F20D171EA00D5BF05 /* Assets.xcassets */,
 				ED2CD7632AC5C71900186E85 /* authorpic.jpeg */,
 				352A67A120D171EA00D5BF05 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 				352A67A020D171EA00D5BF05 /* Assets.xcassets in Resources */,
 				ED2CD7642AC5C71900186E85 /* authorpic.jpeg in Resources */,
 				352A679E20D171E800D5BF05 /* Main.storyboard in Resources */,
+				ED2CD7662AC70C9E00186E85 /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFCNEC27GU;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KFCNEC27GU;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
